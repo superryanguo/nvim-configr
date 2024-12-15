@@ -75,9 +75,18 @@ vim.g.loaded_matchparen = 1
 vim.g.loaded_sql_completion = 1
 
 -- ryan add for the session save and load
-vim.g.vsession_path = '/home/ght/.vim/mysession'
+vim.g.vsession_path = '/Users/guoryan/.config/nvimsession'
 vim.g.vsession_ui = 'fzf'
 vim.g.ackprg = 'ag --vimgrep'
 --let g:ctrlp_map = '<c-p>'
 vim.g.ctrlp_map = '<c-p>'
 vim.g.ctrlp_cmd = 'CtrlPBuffer'
+--vim.g.codeium_enabled = false
+--:CodeiumEnable to enable it
+--vim.g.codeium_disable_bindings = 1
+--to disable the automatic text rendering of suggestions (the gray text that appears for a suggestion)
+--vim.g:codeium_render = false
+--vim.g.codeium_filetypes = {
+    --bash = false,
+    --typescript = true,
+--}
